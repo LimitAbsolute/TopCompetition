@@ -57,7 +57,7 @@
       </el-footer>
     </el-container>
 
-    <el-dialog v-model="playerDialogVisible" :lock-scroll="false" :append-to-body="true" center destroy-on-close>
+    <el-dialog v-model="playerDialogVisible" :lock-scroll="false" :append-to-body="true" center destroy-on-close top="10vh">
       <template #header="{titleId}">
         <h3 :id="titleId">旋手简介</h3>
       </template>
@@ -70,7 +70,9 @@
         <el-descriptions-item label="冠军赛季" width="40%">{{player.champion}}</el-descriptions-item>
         <el-descriptions-item label="亚军赛季" width="40%">{{player.runnerUp}}</el-descriptions-item>
         <el-descriptions-item label="参与赛季" span="3">{{player.compete}}</el-descriptions-item>
-        <el-descriptions-item label="信息" span="3">{{player.info}}</el-descriptions-item>
+        <el-descriptions-item label="信息" span="3">
+          <div class="info">{{player.info}}</div>
+        </el-descriptions-item>
       </el-descriptions>
     </el-dialog>
 
@@ -175,6 +177,10 @@
 
     td {
       word-break: break-all;
+    }
+
+    .info {
+      white-space: pre-line;
     }
   </style>
 </body>
