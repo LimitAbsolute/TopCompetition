@@ -7,7 +7,7 @@ const playerData = [{
                 status: "S11退役",
                 champion: "S1、S5、S7、S11",
                 runnerUp: "S3、S9、S10",
-                compete: "S1、S3、S4、S5、S6、S7、S9、S10、S11",
+                compete: "S1、S3、S4、S5、S6、S7、S9、S10、S11、qqqqqqqqqqqqqqqqqq、qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqS1、S3、S4、S5、S6、S7、S9、S10、S11、qqqqqqqqqqqqqqqqqq、qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq",
                 info: `《大赛四冠王，伟大无需多言！》
                 被粉丝称之为“战神”，可以随意切换自身的左右旋转来应对不同的对手。
                 经过多年磨炼，技巧与耐力出类拔萃，成长为综合实力非常全面的进攻型旋手。
