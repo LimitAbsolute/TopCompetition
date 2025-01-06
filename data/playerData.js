@@ -1,5 +1,6 @@
 const playerData = [{
         no: 0,
+        weight: 0,
         path: "",
         data: [{
                 photo: "1.jpg",
@@ -41,7 +42,8 @@ const playerData = [{
                 compete: "S1、S2、S3、S4、S6、S7、S8、S9、S10",
                 info: `右旋旋手，拥有强大的空气动力学和强悍的防御力，号称是最强的持久防御型旋手。
                 技战术全面，防守反击犀利，击飞能力强劲。
-                防守反击大师，最强之盾，战术储备非常丰富。`
+                防守反击大师，最强之盾，战术储备非常丰富。
+                和翠神曾经在同一个青训体系当过队友。`
             },
             {
                 photo: "4.jpg",
@@ -56,6 +58,7 @@ const playerData = [{
     },
     {
         no: 1,
+        weight: 0,
         path: "BV1DS4y167wc",
         data: [{
             photo: "5.jpg",
@@ -70,6 +73,7 @@ const playerData = [{
     },
     {
         no: 2,
+        weight: 0,
         path: "BV1RK411S7T8",
         data: [{
                 photo: "6.jpg",
@@ -96,6 +100,7 @@ const playerData = [{
     },
     {
         no: 3,
+        weight: 0,
         path: "BV1xQ4y1873v",
         data: [{
             photo: "8.jpg",
@@ -109,6 +114,7 @@ const playerData = [{
     },
     {
         no: 4,
+        weight: 1,
         path: "BV14D421J7Rm",
         data: [{
                 photo: "9.jpg",
@@ -141,6 +147,7 @@ const playerData = [{
     },
     {
         no: 5,
+        weight: 1,
         path: "BV1vm421N7Wz",
         data: [{
                 photo: "12.jpg",
@@ -151,7 +158,8 @@ const playerData = [{
                 compete: "S6、S7、S8、S9",
                 info: `S6第一次打入8强，当时自称防御型高手、战术大师，但半决赛遇到火龙，2秒钟就被击飞。
                 S7针对抗击打进行了强力升级，但被火龙直接击碎。从此以后，火龙成为其职业生涯的噩梦。
-                屡败屡战、意志坚定、喜感十足、不可多得的搞笑型旋手，被观众戏称为“牢黑”“牢石”，但实力不容小觑，自创的自爆流打法曾直接终结了冥王的职业生涯。`
+                屡败屡战、意志坚定、喜感十足、不可多得的搞笑型旋手，被观众戏称为“牢黑”“牢石”，但实力不容小觑，自创的自爆流打法曾直接终结了冥王的职业生涯。
+                有只输给冠军之说。`
             },
             {
                 photo: "13.jpg",
@@ -166,6 +174,7 @@ const playerData = [{
     },
     {
         no: 6,
+        weight: 1,
         path: "BV1dw4m1e71J",
         data: [{
             photo: "14.jpg",
@@ -179,6 +188,7 @@ const playerData = [{
     },
     {
         no: 7,
+        weight: 1,
         path: "BV1hM4m117GV",
         data: [{
                 photo: "15.jpg",
@@ -204,6 +214,7 @@ const playerData = [{
     },
     {
         no: 8,
+        weight: 1,
         path: "BV1dM4m1a789",
         data: [{
             photo: "17.jpg",
@@ -219,6 +230,7 @@ const playerData = [{
     },
     {
         no: 9,
+        weight: 1,
         path: "BV1Jn1DYhEcB",
         data: [{
                 photo: "18.jpg",
@@ -244,6 +256,7 @@ const playerData = [{
     },
     {
         no: 10,
+        weight: 1,
         path: "BV12okmYtEzw",
         data: [{
                 photo: "20.jpg",
