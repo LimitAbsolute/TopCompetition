@@ -9,9 +9,9 @@ Vue3+Element Plus+Echarts
 ## 使用说明
 双击运行index.html
 
-##### 主页
+### 主页
 ![image](https://github.com/LimitAbsolute/TopCompetition/blob/master/preview/1.png)
-##### 赛季对战表
+### 赛季对战表
 ![image](https://github.com/LimitAbsolute/TopCompetition/blob/master/preview/2.png)
-##### 选手简介
+### 选手简介
 ![image](https://github.com/LimitAbsolute/TopCompetition/blob/master/preview/3.png)
