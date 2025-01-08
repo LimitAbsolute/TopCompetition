@@ -75,10 +75,14 @@
         <el-descriptions-item label="名称" width="40%">{{player.name}}</el-descriptions-item>
         <el-descriptions-item label="状态" width="40%">{{player.status}}</el-descriptions-item>
         <el-descriptions-item label="冠军赛季" width="40%">
-          <div class="no-wrap-40">{{player.champion}}</div>
+          <el-scrollbar>
+            <div class="no-wrap-40">{{player.champion}}</div>
+          </el-scrollbar>
         </el-descriptions-item>
         <el-descriptions-item label="亚军赛季" width="40%">
-          <div class="no-wrap-40">{{player.runnerUp}}</div>
+          <el-scrollbar>
+            <div class="no-wrap-40">{{player.runnerUp}}</div>
+          </el-scrollbar>
         </el-descriptions-item>
         <el-descriptions-item label="参与赛季" span="3">
           <el-scrollbar>
