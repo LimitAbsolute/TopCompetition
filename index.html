@@ -63,8 +63,7 @@
       </el-footer>
     </el-container>
 
-    <el-dialog v-model="playerDialogVisible" :lock-scroll="false" :append-to-body="true" center destroy-on-close
-      top="10vh" width="800px">
+    <el-dialog v-model="playerDialogVisible" :lock-scroll="false" center destroy-on-close top="10vh" width="800px">
       <template #header="{titleId}">
         <h3 :id="titleId">旋手简介</h3>
       </template>
@@ -97,8 +96,8 @@
       </el-descriptions>
     </el-dialog>
 
-    <el-dialog v-model="competitionDialogVisible" center :no="no" :lock-scroll="false" :append-to-body="true"
-      @opened="openCompetition(no)" fullscreen destroy-on-close>
+    <el-dialog v-model="competitionDialogVisible" center :no="no" :lock-scroll="false" @opened="openCompetition(no)"
+      fullscreen destroy-on-close>
       <template #header="{titleId}">
         <h2 :id="titleId">S{{no+1}}赛季对战表</h2>
       </template>
@@ -188,7 +187,7 @@
     app.mount("#app");
   </script>
   <style scoped>
-    body {
+    #app {
       width: 1250px;
       margin: 0 auto;
     }
