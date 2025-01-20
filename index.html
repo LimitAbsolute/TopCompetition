@@ -14,6 +14,7 @@
   <script src="./echarts/echarts.min.js"></script>
   <script src="./data/competitionData.js"></script>
   <script src="./data/playerData.js"></script>
+  <script src="./data/weightListData.js"></script>
   <meta charset="utf-8">
   <title>超级无敌热血激情陀螺争霸赛历届出道名单</title>
 </head>
@@ -35,8 +36,8 @@
           </el-table-column>
           <el-table-column label="比赛量级" prop="weight" width="150">
             <template #default="scope">
-              <el-tag size="large" type="success" round disable-transitions>
-                {{weightList[scope.row.weight]}}
+              <el-tag size="large" :type="weightList[scope.row.weight].type" round disable-transitions>
+                {{weightList[scope.row.weight].text}}
               </el-tag>
             </template>
           </el-table-column>
@@ -109,7 +110,7 @@
     const App = {
       data() {
         return {
-          weightList: ["50-60g轻量级", "50-70g轻中量级"],
+          weightList: weightListData,
           player: {},
           no: 0,
           playerDialogVisible: false,

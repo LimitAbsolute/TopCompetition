@@ -609,4 +609,4 @@ const competitionData = [{
             ]
         }
     }
-]
+];
