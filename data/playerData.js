@@ -1,3 +1,6 @@
+/**
+ * 主界面表格数据
+ */
 const playerData = [{
         no: 0,
         weight: 0,

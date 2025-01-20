@@ -1,3 +1,6 @@
+/**
+ * 赛季对战数据
+ */
 const competitionData = [{
         no: 0,
         data: {
