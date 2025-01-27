@@ -134,13 +134,12 @@
           const competitionChart = echarts.init(document.getElementById("competitionChart"));
           competitionChart.setOption({
             tooltip: {
-              trigger: "item",
-              triggerOn: "mousemove",
               formatter: "{c}"
             },
             series: [
               {
                 type: "tree",
+                expandAndCollapse: false,
                 data: [this.getCompetitionData(no)],
                 symbol: "arrow",
                 symbolSize: 24,
