@@ -82,9 +82,9 @@ const playerData = [{
                 photo: "6.jpg",
                 name: "萤火虫",
                 status: "在役",
-                champion: "-",
+                champion: "S12",
                 runnerUp: "S8",
-                compete: "S3、S4、S8、S9、S11",
+                compete: "S3、S4、S8、S9、S11、S12",
                 info: `追求极致轻量化和高转速的进攻型旋手，擅长游击进攻、以点破面地干扰对手的平衡。
                 风格诡异多变，擅长高速猛攻、多角度连打、空中连击，空中控制力非常强劲。`
             },
@@ -94,9 +94,10 @@ const playerData = [{
                 status: "在役",
                 champion: "S3、S4",
                 runnerUp: "S5、S11",
-                compete: "S3、S4、S5、S6、S7、S8、S9、S10、S11",
+                compete: "S3、S4、S5、S6、S7、S8、S9、S10、S11、S12",
                 info: `不知在何等极限环境下成长起来的顶级耐力型旋手，没有花哨的进攻和躲闪，身体就像黑洞一般，可以源源不断地吸收对手的转速，永远比对手晚一步停止转动。
                 学习能力强，以消耗战为主，比赛中游击防守反击和进攻水平突飞猛进，针对不同的旋手有不同的进攻节奏。
+                现在已经进化为攻守一体，综合能力极强的一位选手。
                 似乎运气不佳。`
             },
         ]
@@ -111,8 +112,8 @@ const playerData = [{
             status: "在役",
             champion: "-",
             runnerUp: "-",
-            compete: "S4、S5",
-            info: `轻量级的冠军旋手，曾在轻量级打出碾压效果，是唯一一位增重跨级别参赛的旋手。`
+            compete: "S4、S5、S12",
+            info: `轻量级的冠军旋手，技战术强悍，曾在轻量级打出碾压效果，是唯一一位增重跨级别参赛的旋手。`
         }, ]
     },
     {
@@ -225,9 +226,9 @@ const playerData = [{
             status: "在役",
             champion: "S9、S10",
             runnerUp: "-",
-            compete: "S9、S10、S11",
+            compete: "S9、S10、S11、S12",
             info: `拥有恐怖的爆发力和极强的进攻欲望，在S9预选赛连续4场击飞对手，打出了统治级的水准。
-            拥有超强的陀体控制力、抗击打能力、消耗能力以及非常强劲的击飞能力。
+            拥有超强的陀体控制力、抗击打能力、消耗能力以及非常强劲的击飞能力，打法非常细致。
             连续两次在BO5中战胜火龙。`
         }, ]
     },
@@ -249,9 +250,10 @@ const playerData = [{
                 name: "黑金刚",
                 status: "在役",
                 champion: "-",
-                runnerUp: "-",
-                compete: "S10、S11",
+                runnerUp: "S12",
+                compete: "S10、S11、S12",
                 info: `黑曜石超级升级版，掌握了超级诡异吸能招式的旋手。
+                团队资金非常雄厚，多次解体后重建实力都在不断上升。
                 其团队声明：斥巨资为黑金刚进行了陀体强化，绝对不会被击碎。
                 S11半决赛上成功击飞了一次即将退役的火龙，然后剩下两场都被火龙干了个底朝天。`
             }
@@ -278,6 +280,39 @@ const playerData = [{
                 runnerUp: "-",
                 compete: "S11",
                 info: `超级防御悍将，S11预选赛上以强硬的防守战胜了风暴，主打一个字——硬。`
+            },
+        ]
+    },
+    {
+        no: 11,
+        weight: 3,
+        path: "BV1M8jAzEE4c",
+        data: [{
+                photo: "22.jpg",
+                name: "蓝鳍鲨",
+                status: "在役",
+                champion: "-",
+                runnerUp: "-",
+                compete: "S12",
+                info: `防守悍将。`
+            },
+            {
+                photo: "23.jpg",
+                name: "青冥星璇",
+                status: "在役",
+                champion: "-",
+                runnerUp: "-",
+                compete: "S12",
+                info: `暂无。`
+            },
+            {
+                photo: "24.jpg",
+                name: "冰魄流云",
+                status: "在役",
+                champion: "-",
+                runnerUp: "-",
+                compete: "S12",
+                info: `偏稳健。`
             },
         ]
     },

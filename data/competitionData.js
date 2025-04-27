@@ -611,5 +611,91 @@ const competitionData = [{
                 },
             ]
         }
+    },
+    {
+        no: 11,
+        data: {
+            name: "萤火虫",
+            value: "2 : 1",
+            children: [{
+                    name: "黑金刚",
+                    value: "1 : 0",
+                    children: [{
+                            name: "萤火虫",
+                            value: "1 : 0",
+                            children: [{
+                                    name: "萤火虫",
+                                    value: "二者同时飞出场外，萤火虫的释放装甲留在场内，萤火虫晋级",
+                                    children: [{
+                                            name: "萤火虫"
+                                        },
+                                        {
+                                            name: "蓝鳍鲨"
+                                        }
+                                    ]
+                                },
+                                {
+                                    name: "霰弹枪",
+                                    value: "1 : 0",
+                                    children: [{
+                                            name: "阎魔"
+                                        },
+                                        {
+                                            name: "霰弹枪"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            name: "黑金刚",
+                            value: "1 : 0",
+                            children: [{
+                                    name: "青冥星璇",
+                                    value: "二者同时飞出场外，平局后重赛，1 : 0",
+                                    children: [{
+                                            name: "青冥星璇"
+                                        },
+                                        {
+                                            name: "冰魄流云"
+                                        }
+                                    ]
+                                },
+                                {
+                                    name: "黑金刚",
+                                    value: "中子星失控、飞出场外，1 : 0",
+                                    children: [{
+                                            name: "中子星"
+                                        },
+                                        {
+                                            name: "黑金刚"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                    ]
+                },
+                {
+                    name: "萤火虫",
+                    value: "复活赛，1 : 0",
+                    children: [{
+                            name: "青冥星璇",
+                            value: "复活赛，1 : 0",
+                            children: [{
+                                    name: "霰弹枪"
+                                },
+                                {
+                                    name: "青冥星璇"
+                                }
+                            ]
+                        },
+                        {
+                            name: "萤火虫"
+                        }
+                    ]
+                }
+            ]
+        }
     }
 ];

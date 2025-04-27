@@ -26,7 +26,7 @@
         <h1>超级无敌热血激情陀螺争霸赛历届出道名单</h1>
       </el-header>
       <el-main>
-        <el-table :data="playerData" stripe :default-sort="{prop:'no',order:'ascending'}">
+        <el-table :data="playerData" stripe :default-sort="{prop:'no',order:'descending'}">
           <el-table-column label="出道赛季" width="120" prop="no" sortable :sort-orders="['descending','ascending']">
             <template #default="scope">
               <el-button icon="TrophyBase" type="warning" size="large" @click="showCompetition(scope.row.no)">
@@ -34,7 +34,7 @@
               </el-button>
             </template>
           </el-table-column>
-          <el-table-column label="比赛量级" prop="weight" width="150">
+          <el-table-column label="比赛量级" prop="weight" width="200">
             <template #default="scope">
               <el-tag size="large" :type="weightList[scope.row.weight].type" round disable-transitions>
                 {{weightList[scope.row.weight].text}}
