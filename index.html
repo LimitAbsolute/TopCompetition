@@ -47,12 +47,19 @@
                 @click="openVideo(scope.row.path)"></el-button>
             </template>
           </el-table-column>
-          <el-table-column label="旋手名称" prop="data">
+          <el-table-column label="旋手名称" prop="data" width="450">
             <template #default="scope">
               <el-button icon="UserFilled" class="player-button" v-for="player in scope.row.data" size="large"
                 type="primary" plain @click="showPlayer(player)">
                 {{player.name}}
               </el-button>
+            </template>
+          </el-table-column>
+          <el-table-column label="赛事说明" prop="description">
+            <template #default="scope">
+              <el-text size="small">
+                {{scope.row.description}}
+              </el-text>
             </template>
           </el-table-column>
         </el-table>

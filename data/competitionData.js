@@ -697,5 +697,91 @@ const competitionData = [{
                 }
             ]
         }
+    },
+    {
+        no: 12,
+        data: {
+            name: "穿云箭",
+            value: "2 : 1",
+            children: [{
+                    name: "风暴",
+                    value: "1 : 0",
+                    children: [{
+                            name: "风暴",
+                            value: "1 : 0",
+                            children: [{
+                                    name: "风暴",
+                                    value: "1 : 0",
+                                    children: [{
+                                            name: "风暴"
+                                        },
+                                        {
+                                            name: "王朝"
+                                        }
+                                    ]
+                                },
+                                {
+                                    name: "萤火虫",
+                                    value: "1 : 0",
+                                    children: [{
+                                            name: "萤火虫"
+                                        },
+                                        {
+                                            name: "水晶"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            name: "阎魔",
+                            value: "1 : 0",
+                            children: [{
+                                    name: "穿云箭",
+                                    value: "1 : 0",
+                                    children: [{
+                                            name: "中子星"
+                                        },
+                                        {
+                                            name: "穿云箭"
+                                        }
+                                    ]
+                                },
+                                {
+                                    name: "阎魔",
+                                    value: "蓝鳍鲨赛前体重超标，未能参赛，阎魔自动晋级",
+                                    children: [{
+                                            name: "蓝鳍鲨"
+                                        },
+                                        {
+                                            name: "阎魔"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                    ]
+                },
+                {
+                    name: "穿云箭",
+                    value: "复活赛，1 : 0",
+                    children: [{
+                            name: "穿云箭",
+                            value: "复活赛，1 : 0",
+                            children: [{
+                                    name: "萤火虫"
+                                },
+                                {
+                                    name: "穿云箭"
+                                }
+                            ]
+                        },
+                        {
+                            name: "阎魔"
+                        }
+                    ]
+                }
+            ]
+        }
     }
 ];
