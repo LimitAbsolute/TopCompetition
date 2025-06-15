@@ -522,7 +522,7 @@ const competitionData = [{
                 },
                 {
                     name: "火龙",
-                    value: "2 : 0，黑曜石两次被击碎",
+                    value: "2 : 0，黑金刚两次被击碎",
                     children: [{
                             name: "黑金刚",
                             value: "1 : 0",
