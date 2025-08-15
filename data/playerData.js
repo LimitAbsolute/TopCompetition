@@ -93,7 +93,7 @@ const playerData = [{
                 status: "在役",
                 champion: "S12",
                 runnerUp: "S8",
-                compete: "S3、S4、S8、S9、S11、S12、S13",
+                compete: "S3、S4、S8、S9、S11、S12、S13、S14",
                 info: `追求极致轻量化和高转速的进攻型旋手，擅长游击进攻、以点破面地干扰对手的平衡。
                 风格诡异多变，擅长高速猛攻、多角度连打、空中连击，空中控制力非常强劲。
                 S13疑似收购了闪电的技术团队。`
@@ -104,7 +104,7 @@ const playerData = [{
                 status: "在役",
                 champion: "S3、S4",
                 runnerUp: "S5、S11",
-                compete: "S3、S4、S5、S6、S7、S8、S9、S10、S11、S12、S13",
+                compete: "S3、S4、S5、S6、S7、S8、S9、S10、S11、S12、S13、S14",
                 info: `不知在何等极限环境下成长起来的顶级耐力型旋手，没有花哨的进攻和躲闪，身体就像黑洞一般，可以源源不断地吸收对手的转速，永远比对手晚一步停止转动。
                 学习能力强，以消耗战为主，比赛中游击防守反击和进攻水平突飞猛进，针对不同的旋手有不同的进攻节奏。
                 现在已经进化为攻守一体，综合能力极强的一位选手。
@@ -260,7 +260,7 @@ const playerData = [{
                 status: "在役",
                 champion: "-",
                 runnerUp: "-",
-                compete: "S10",
+                compete: "S10、S14",
                 info: `防御型。`
             },
             {
@@ -269,7 +269,7 @@ const playerData = [{
                 status: "在役",
                 champion: "-",
                 runnerUp: "S12",
-                compete: "S10、S11、S12",
+                compete: "S10、S11、S12、S14",
                 info: `黑曜石超级升级版，掌握了超级诡异吸能招式的旋手。
                 团队资金非常雄厚，多次解体后重建实力都在不断上升。
                 其团队声明：斥巨资为黑金刚进行了陀体强化，绝对不会被击碎。
@@ -313,7 +313,7 @@ const playerData = [{
                 status: "在役",
                 champion: "-",
                 runnerUp: "-",
-                compete: "S12",
+                compete: "S12、S14",
                 info: `防守悍将，拥有最极限的体重和可开合式的鳍片，耐力和抗击打都非常强劲。
                 S13体重超标，未能参赛。`
             },
@@ -348,7 +348,7 @@ const playerData = [{
             status: "在役",
             champion: "S13",
             runnerUp: "-",
-            compete: "S13",
+            compete: "S13、S14",
             info: `S13全新时代的陀体，唯一一位采用剑式发射器的旋手。
             被各大媒体誉为未来之星。`
         }],
