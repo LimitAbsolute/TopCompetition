@@ -75,8 +75,8 @@ const playerData = [{
             name: "水晶",
             status: "在役",
             champion: "-",
-            runnerUp: "S2",
-            compete: "S2、S3、S4、S5、S13",
+            runnerUp: "S2、S14",
+            compete: "S2、S3、S4、S5、S13、S14",
             info: `S2出道时是当时唯一一位没有资本赞助和技师团队的独立旋手，左旋持久型，耐力也不容小觑。
             攻守兼备，奇招频出。
             为了减少战损，不愿意出全力。`
@@ -240,12 +240,13 @@ const playerData = [{
             photo: "17.jpg",
             name: "阎魔",
             status: "在役",
-            champion: "S9、S10",
+            champion: "S9、S10、S14",
             runnerUp: "-",
-            compete: "S9、S10、S11、S12、S13",
+            compete: "S9、S10、S11、S12、S13、S14",
             info: `拥有恐怖的爆发力和极强的进攻欲望，在S9预选赛连续4场击飞对手，打出了统治级的水准。
             拥有超强的陀体控制力、抗击打能力、消耗能力以及非常强劲的击飞能力，打法非常细致。
-            连续两次在BO5中战胜火龙。`
+            连续两次在BO5中战胜火龙。
+            大赛第二位三冠王。`
         }, ],
         "description": ""
     },
@@ -313,7 +314,7 @@ const playerData = [{
                 champion: "-",
                 runnerUp: "-",
                 compete: "S12",
-                info: `防守悍将。
+                info: `防守悍将，拥有最极限的体重和可开合式的鳍片，耐力和抗击打都非常强劲。
                 S13体重超标，未能参赛。`
             },
             {
@@ -348,8 +349,16 @@ const playerData = [{
             champion: "S13",
             runnerUp: "-",
             compete: "S13",
-            info: `S13全新时代的陀体，唯一一位采用剑式发射器的旋手。`
+            info: `S13全新时代的陀体，唯一一位采用剑式发射器的旋手。
+            被各大媒体誉为未来之星。`
         }],
         "description": "回归传统蓝色竞技台；胜者组进入决赛的旋手有一次晚入场的机会(1秒)"
+    },
+    {
+        no: 13,
+        weight: 3,
+        path: "BV1Wyb7z7E9g",
+        data: [],
+        "description": "第一次无新人出道的赛季"
     },
 ];

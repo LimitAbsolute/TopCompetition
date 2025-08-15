@@ -783,5 +783,91 @@ const competitionData = [{
                 }
             ]
         }
+    },
+    {
+        no: 13,
+        data: {
+            name: "阎魔",
+            value: "阎魔完全放弃后入场的优势，2 : 1",
+            children: [{
+                    name: "阎魔",
+                    value: "二者同时飞出场外，平局后重赛，1 : 0",
+                    children: [{
+                            name: "蓝鳍鲨",
+                            value: "1 : 0",
+                            children: [{
+                                    name: "黑金刚",
+                                    value: "1 : 0",
+                                    children: [{
+                                            name: "黑金刚"
+                                        },
+                                        {
+                                            name: "火烧云"
+                                        }
+                                    ]
+                                },
+                                {
+                                    name: "蓝鳍鲨",
+                                    value: "1 : 0",
+                                    children: [{
+                                            name: "穿云箭"
+                                        },
+                                        {
+                                            name: "蓝鳍鲨"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            name: "阎魔",
+                            value: "二者同时飞出场外，平局后重赛，1 : 0",
+                            children: [{
+                                    name: "水晶",
+                                    value: "1 : 0",
+                                    children: [{
+                                            name: "中子星"
+                                        },
+                                        {
+                                            name: "水晶"
+                                        }
+                                    ]
+                                },
+                                {
+                                    name: "阎魔",
+                                    value: "1 : 0",
+                                    children: [{
+                                            name: "阎魔"
+                                        },
+                                        {
+                                            name: "萤火虫"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                    ]
+                },
+                {
+                    name: "水晶",
+                    value: "复活赛，1 : 0",
+                    children: [{
+                            name: "水晶",
+                            value: "复活赛，1 : 0",
+                            children: [{
+                                    name: "黑金刚"
+                                },
+                                {
+                                    name: "水晶"
+                                }
+                            ]
+                        },
+                        {
+                            name: "蓝鳍鲨"
+                        }
+                    ]
+                }
+            ]
+        }
     }
 ];
