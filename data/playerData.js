@@ -60,7 +60,7 @@ const playerData = [{
                 status: "在役",
                 champion: "-",
                 runnerUp: "-",
-                compete: "S1、S2、S3、S4、S6",
+                compete: "S1、S2、S3、S4、S6、S15",
                 info: `左旋旋手，速度型，以吸能消耗、灵活躲闪为主，也是一位主打持久战、防守反击的防御型旋手。`
             }
         ],
@@ -76,7 +76,7 @@ const playerData = [{
             status: "在役",
             champion: "-",
             runnerUp: "S2、S14",
-            compete: "S2、S3、S4、S5、S13、S14",
+            compete: "S2、S3、S4、S5、S13、S14、S15",
             info: `S2出道时是当时唯一一位没有资本赞助和技师团队的独立旋手，左旋持久型，耐力也不容小觑。
             攻守兼备，奇招频出。
             为了减少战损，不愿意出全力。`
@@ -93,7 +93,7 @@ const playerData = [{
                 status: "在役",
                 champion: "S12",
                 runnerUp: "S8",
-                compete: "S3、S4、S8、S9、S11、S12、S13、S14",
+                compete: "S3、S4、S8、S9、S11、S12、S13、S14、S15",
                 info: `追求极致轻量化和高转速的进攻型旋手，擅长游击进攻、以点破面地干扰对手的平衡。
                 风格诡异多变，擅长高速猛攻、多角度连打、空中连击，空中控制力非常强劲。
                 S13疑似收购了闪电的技术团队。`
@@ -102,13 +102,14 @@ const playerData = [{
                 photo: "7.jpg",
                 name: "中子星",
                 status: "在役",
-                champion: "S3、S4",
+                champion: "S3、S4、S15",
                 runnerUp: "S5、S11",
-                compete: "S3、S4、S5、S6、S7、S8、S9、S10、S11、S12、S13、S14",
+                compete: "S3、S4、S5、S6、S7、S8、S9、S10、S11、S12、S13、S14、S15",
                 info: `不知在何等极限环境下成长起来的顶级耐力型旋手，没有花哨的进攻和躲闪，身体就像黑洞一般，可以源源不断地吸收对手的转速，永远比对手晚一步停止转动。
                 学习能力强，以消耗战为主，比赛中游击防守反击和进攻水平突飞猛进，针对不同的旋手有不同的进攻节奏。
                 现在已经进化为攻守一体，综合能力极强的一位选手。
-                似乎运气不佳。`
+                似乎运气不佳。
+                联盟第三位三冠王。`
             },
         ],
         "description": "决赛积分最高的旋手自动跳过小组赛晋级"
@@ -172,7 +173,7 @@ const playerData = [{
                 status: "S10升级为黑金刚",
                 champion: "-",
                 runnerUp: "-",
-                compete: "S6、S7、S8、S9",
+                compete: "S6、S7、S8、S9、S15",
                 info: `S6第一次打入8强，当时自称防御型高手、战术大师，但半决赛遇到火龙，2秒钟就被击飞。
                 S7针对抗击打进行了强力升级，但被火龙直接击碎。从此以后，火龙成为其职业生涯的噩梦。
                 屡败屡战、意志坚定、喜感十足、不可多得的搞笑型旋手，被观众戏称为“牢黑”“牢石”，但实力不容小觑，自创的自爆流打法曾直接终结了冥王的职业生涯。
@@ -184,7 +185,7 @@ const playerData = [{
                 status: "在役",
                 champion: "S6",
                 runnerUp: "-",
-                compete: "S6、S7、S9",
+                compete: "S6、S7、S9、S15",
                 info: `S6唯一一位全自主研发团队的参赛旋手，出道即巅峰，极端防守型。`
             },
         ],
@@ -241,8 +242,8 @@ const playerData = [{
             name: "阎魔",
             status: "在役",
             champion: "S9、S10、S14",
-            runnerUp: "-",
-            compete: "S9、S10、S11、S12、S13、S14",
+            runnerUp: "S15",
+            compete: "S9、S10、S11、S12、S13、S14、S15",
             info: `拥有恐怖的爆发力和极强的进攻欲望，在S9预选赛连续4场击飞对手，打出了统治级的水准。
             拥有超强的陀体控制力、抗击打能力、消耗能力以及非常强劲的击飞能力，打法非常细致。
             连续两次在BO5中战胜火龙。
@@ -360,5 +361,20 @@ const playerData = [{
         path: "BV1Wyb7z7E9g",
         data: [],
         "description": "第一次无新人出道的赛季"
+    },
+    {
+        no: 14,
+        weight: 3,
+        path: "BV1ZfH7zHE39",
+        data: [{
+            photo: "26.jpg",
+            name: "超能骑士",
+            status: "在役",
+            champion: "-",
+            runnerUp: "-",
+            compete: "S15",
+            info: `大体积的旋手，重心非常高，但平衡控制得很好。`
+        }],
+        "description": "复活赛决赛改为BO3"
     },
 ];

@@ -869,5 +869,91 @@ const competitionData = [{
                 }
             ]
         }
+    },
+    {
+        no: 14,
+        data: {
+            name: "中子星",
+            value: "2 : 1",
+            children: [{
+                    name: "中子星",
+                    value: "1 : 0",
+                    children: [{
+                            name: "中子星",
+                            value: "1 : 0",
+                            children: [{
+                                    name: "中子星",
+                                    value: "1 : 0",
+                                    children: [{
+                                            name: "灰烬"
+                                        },
+                                        {
+                                            name: "中子星"
+                                        }
+                                    ]
+                                },
+                                {
+                                    name: "阎魔",
+                                    value: "1 : 0",
+                                    children: [{
+                                            name: "阎魔"
+                                        },
+                                        {
+                                            name: "黑金刚"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            name: "水晶",
+                            value: "1 : 0",
+                            children: [{
+                                    name: "水晶",
+                                    value: "1 : 0",
+                                    children: [{
+                                            name: "水晶"
+                                        },
+                                        {
+                                            name: "闪电"
+                                        }
+                                    ]
+                                },
+                                {
+                                    name: "超能骑士",
+                                    value: "1 : 0",
+                                    children: [{
+                                            name: "超能骑士"
+                                        },
+                                        {
+                                            name: "萤火虫"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                    ]
+                },
+                {
+                    name: "阎魔",
+                    value: "复活赛，2 : 1",
+                    children: [{
+                            name: "阎魔",
+                            value: "复活赛，1 : 0",
+                            children: [{
+                                    name: "阎魔"
+                                },
+                                {
+                                    name: "超能骑士"
+                                }
+                            ]
+                        },
+                        {
+                            name: "水晶"
+                        }
+                    ]
+                }
+            ]
+        }
     }
 ];
