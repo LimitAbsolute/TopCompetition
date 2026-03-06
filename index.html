@@ -51,7 +51,7 @@
             <template #default="scope">
               <el-button icon="UserFilled" class="player-button" v-for="player in scope.row.data" size="large"
                 type="primary" plain @click="showPlayer(player)">
-                {{player.name}}
+                <span class="player-name">{{player.name}}</span>
               </el-button>
             </template>
           </el-table-column>
@@ -206,6 +206,11 @@
 
     .player-button {
       margin: 5px 10px 5px 0 !important;
+    }
+
+    .player-name {
+      text-align: left;
+      width: 4em;
     }
 
     td {
