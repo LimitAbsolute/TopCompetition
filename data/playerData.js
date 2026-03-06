@@ -182,11 +182,15 @@ const playerData = [{
             {
                 photo: "13.jpg",
                 name: "灰烬",
-                status: "在役",
-                champion: "S6",
+                status: "S16退役",
+                champion: "S6、S16",
                 runnerUp: "-",
-                compete: "S6、S7、S9、S15",
-                info: `S6唯一一位全自主研发团队的参赛旋手，出道即巅峰，极端防守型。`
+                compete: "S6、S7、S9、S15、S16",
+                info: `S6唯一一位全自主研发团队的参赛旋手，出道即巅峰，极端防守型。
+                一个出道即巅峰的旋手，这么多年的比赛，对他的质疑却从未停止，他不是天赋型的旋手，资金贫瘠，结构简单，进攻手段单一，防守技巧几乎只靠硬抗。
+                对他来说每一次上场都是孤注一掷，只有浑身的伤痕在见证着他求胜的欲望。
+                为了胜利，真的值得牺牲一切吗？
+                灰烬从来都只有一个答案，就像他的名字一样不需要多么耀眼，但燃尽一切之后的灰白证明了他也曾经爆发出无与伦比的光！`
             },
         ],
         "description": ""
@@ -376,5 +380,75 @@ const playerData = [{
             info: `大体积的旋手，重心非常高，但平衡控制得很好。`
         }],
         "description": "复活赛决赛改为BO3"
+    },
+    {
+        no: 15,
+        weight: 4,
+        path: "BV14aPszGEvW",
+        data: [{
+                photo: "27.jpg",
+                name: "飞蝗石",
+                status: "在役",
+                champion: "-",
+                runnerUp: "-",
+                compete: "S16",
+                info: `直接从轻量级增重上来的旋手，在重心控制、吸能方面有不错的实力。`
+            },
+            {
+                photo: "28.jpg",
+                name: "血滴子",
+                status: "在役",
+                champion: "-",
+                runnerUp: "-",
+                compete: "S16",
+                info: `从轻量级增重上来的旋手，擅长出其不意的进攻路线，属于偏耐力和防守反击的类型。`
+            },
+            {
+                photo: "29.jpg",
+                name: "黑翼大魔",
+                status: "在役",
+                champion: "-",
+                runnerUp: "-",
+                compete: "S16",
+                info: `S16最重的旋手，有一击必杀的超强爆发和重量级耐打王称号的超强续航。`
+            },
+            {
+                photo: "30.jpg",
+                name: "焚天",
+                status: "在役",
+                champion: "-",
+                runnerUp: "S16",
+                compete: "S16",
+                info: `重量级的超级强攻手。`
+            },
+            {
+                photo: "31.jpg",
+                name: "斩龙剑",
+                status: "在役",
+                champion: "-",
+                runnerUp: "-",
+                compete: "S16",
+                info: `重量级的超级强攻手。`
+            },
+            {
+                photo: "32.jpg",
+                name: "裂地斧",
+                status: "在役",
+                champion: "-",
+                runnerUp: "-",
+                compete: "S16",
+                info: `稳重的耐力型旋手，擅长缠斗压制。`
+            },
+            {
+                photo: "33.jpg",
+                name: "海神戟",
+                status: "在役",
+                champion: "-",
+                runnerUp: "-",
+                compete: "S16",
+                info: `S16最年轻的小将，走位灵活，攻击迅猛。`
+            }
+        ],
+        "description": "旧竞技台受损，启用全新形式的多边形擂台——六边形地狱；半决赛BO3，决赛BO5"
     },
 ];

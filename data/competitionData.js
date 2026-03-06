@@ -955,5 +955,67 @@ const competitionData = [{
                 }
             ]
         }
+    },
+    {
+        no: 15,
+        data: {
+            name: "灰烬",
+            value: "3 : 2",
+            children: [{
+                    name: "焚天",
+                    value: "2 : 1",
+                    children: [{
+                            name: "裂地斧",
+                            value: "1 : 0",
+                            children: [{
+                                    name: "血滴子"
+                                },
+                                {
+                                    name: "裂地斧"
+                                }
+                            ]
+                        },
+                        {
+                            name: "焚天",
+                            value: "平局后重赛，1 : 0",
+                            children: [{
+                                    name: "焚天"
+                                },
+                                {
+                                    name: "斩龙剑"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    name: "灰烬",
+                    value: "2 : 0",
+                    children: [{
+                            name: "灰烬",
+                            value: "1 : 0",
+                            children: [{
+                                    name: "飞蝗石"
+                                },
+                                {
+                                    name: "灰烬"
+                                }
+                            ]
+                        },
+                        {
+                            name: "海神戟",
+                            value: "1 : 0",
+                            children: [{
+                                    name: "黑翼大魔"
+                                },
+                                {
+                                    name: "海神戟"
+                                }
+                            ]
+                        }
+                    ]
+                },
+            ]
+        }
     }
 ];
